@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainColor"
+    tools:context=".games.WordleActivity">
+
+    <LinearLayout
+        android:id="@+id/wordArea"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word21"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word22"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word23"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word24"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word31"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word32"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word33"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word34"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word35"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word41"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word42"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word43"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word44"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word45"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word51"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word52"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word53"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word54"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="50dp"
+                android:layout_gravity="center"
+                android:background="@color/white"
+                android:layout_weight="1" >
+
+                <TextView
+                    android:id="@+id/word55"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/mainColor"
+                    android:textSize="50sp" />
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:layout_marginHorizontal="5dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnQ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:text="Q"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/btnW"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="W" />
+
+            <Button
+                android:id="@+id/btnE"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="E" />
+
+            <Button
+                android:id="@+id/btnR"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="R" />
+
+            <Button
+                android:id="@+id/btnT"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="T" />
+
+            <Button
+                android:id="@+id/btnY"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="Y" />
+
+            <Button
+                android:id="@+id/btnU"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="U" />
+
+            <Button
+                android:id="@+id/btnI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="I" />
+
+            <Button
+                android:id="@+id/btnO"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="O" />
+
+            <Button
+                android:id="@+id/btnP"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="P" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginHorizontal="5dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnA"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="A" />
+
+            <Button
+                android:id="@+id/btnS"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="S" />
+
+            <Button
+                android:id="@+id/btnD"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="D" />
+
+            <Button
+                android:id="@+id/btnF"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="F" />
+
+            <Button
+                android:id="@+id/btnG"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="G" />
+
+            <Button
+                android:id="@+id/btnH"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="H" />
+
+            <Button
+                android:id="@+id/btnJ"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="J" />
+
+            <Button
+                android:id="@+id/btnK"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="K" />
+
+            <Button
+                android:id="@+id/btnL"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="2dp"
+                android:layout_weight="1"
+                android:text="L" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnEnter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:text="Ent"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btnZ"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:text="Z" />
+
+                <Button
+                    android:id="@+id/btnX"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:text="X" />
+
+                <Button
+                    android:id="@+id/btnC"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:text="C" />
+
+                <Button
+                    android:id="@+id/btnV"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:text="V" />
+
+                <Button
+                    android:id="@+id/btnB"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:text="B" />
+
+                <Button
+                    android:id="@+id/btnN"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:text="N" />
+
+                <Button
+                    android:id="@+id/btnM"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:text="M" />
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="0.95"
+                    android:text="<" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

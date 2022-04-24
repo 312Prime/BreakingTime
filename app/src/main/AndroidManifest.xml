@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BreakingTime">
         <activity
+            android:name=".games.KordleActivity"
+            android:exported="false" />
+        <activity
+            android:name=".games.WordleActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
