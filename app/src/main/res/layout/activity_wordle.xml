@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mainColor"
+    android:background="@color/white"
     tools:context=".games.WordleActivity">
 
     <LinearLayout
@@ -21,100 +21,52 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word11"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word11"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word12"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word12"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word13"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word13"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word14"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word14"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word15"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word15"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
 
-            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -123,100 +75,52 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word21"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word21"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word22"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word22"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word23"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word23"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word24"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word24"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word25"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word25"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
 
-            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -225,100 +129,52 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word31"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word31"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word32"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word32"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word33"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word33"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word34"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word34"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word35"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word35"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
 
-            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -327,100 +183,52 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word41"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word41"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word42"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word42"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word43"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word43"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word44"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word44"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word45"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word45"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
 
-            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
         <LinearLayout
@@ -429,100 +237,52 @@
             android:layout_weight="1"
             android:orientation="horizontal">
 
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word51"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word51"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word52"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word52"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word53"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word53"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word54"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word54"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
-
-            </androidx.cardview.widget.CardView>
-
-            <androidx.cardview.widget.CardView
+            <TextView
+                android:id="@+id/word55"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:cardCornerRadius="50dp"
-                android:layout_gravity="center"
-                android:background="@color/white"
-                android:layout_weight="1" >
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:textColor="@color/mainColor"
+                android:textSize="50sp" />
 
-                <TextView
-                    android:id="@+id/word55"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text=""
-                    android:textAlignment="center"
-                    android:textColor="@color/mainColor"
-                    android:textSize="50sp" />
 
-            </androidx.cardview.widget.CardView>
         </LinearLayout>
 
     </LinearLayout>
@@ -781,7 +541,7 @@
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="2dp"
                     android:layout_weight="0.95"
-                    android:text="<" />
+                    android:text="back" />
             </LinearLayout>
 
         </LinearLayout>
